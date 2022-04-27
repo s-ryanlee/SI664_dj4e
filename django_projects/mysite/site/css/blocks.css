@@ -1,0 +1,33 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#one {
+    border-style: solid;border-color: blue;border-width: 5px;
+    margin: 5px;padding: 5px;width: 25%;clear: both;
+    position: fixed;bottom: 5px;right: 5px;
+}
+
+#two {
+    border-style: solid;border-color: green;border-width: 5px;
+    margin: 5px;padding: 5px;width: 25%;clear: both;
+    position: fixed;top: 5px;right: 5px;
+}
+
+#three {
+    border-style: solid;border-color: orange;border-width: 5px;
+    margin: 5px;padding: 5px;width: 25%;clear: both;
+    position: fixed;top: 5px;left: 5px;
+}
+
+#four {
+    border-style: solid;border-color: yellow;border-width: 5px;
+    margin: 5px;padding: 5px;width: 25%;clear: both;
+    position: fixed;bottom: 5px;left: 5px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    background: #2f418e;color: #FFFFFF;
+    position: absolute;left: 50%;
+}
